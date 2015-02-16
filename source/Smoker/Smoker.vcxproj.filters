@@ -1,0 +1,186 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="_core">
+      <UniqueIdentifier>{6da6042d-8432-44db-92f3-b1c1e79d1e37}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="_core\avr-libc">
+      <UniqueIdentifier>{4ede8701-17bc-424e-8ad7-c542c59ae622}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="_libraries">
+      <UniqueIdentifier>{a02d5c8b-de44-4f78-b3d7-dbd36e42750c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="_libraries\dallas-temperature-control">
+      <UniqueIdentifier>{f720b05b-3099-4de1-9708-c5ae113847b5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="_libraries\OneWire">
+      <UniqueIdentifier>{0c6edb7a-33c9-420c-9335-826204d76bb6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="_libraries\LiquidCrystal">
+      <UniqueIdentifier>{a5128ddb-3680-485a-9d4e-6d3557d7efc8}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Smoker.ino" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Visual Micro\.Smoker.vsarduino.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Program Files (x86)\Arduino\hardware\arduino\cores\arduino\Arduino.h">
+      <Filter>_core</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Program Files (x86)\Arduino\hardware\arduino\cores\arduino\binary.h">
+      <Filter>_core</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Program Files (x86)\Arduino\hardware\arduino\cores\arduino\Client.h">
+      <Filter>_core</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Program Files (x86)\Arduino\hardware\arduino\cores\arduino\HardwareSerial.h">
+      <Filter>_core</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Program Files (x86)\Arduino\hardware\arduino\cores\arduino\IPAddress.h">
+      <Filter>_core</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Program Files (x86)\Arduino\hardware\arduino\cores\arduino\new.h">
+      <Filter>_core</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Program Files (x86)\Arduino\hardware\arduino\cores\arduino\Platform.h">
+      <Filter>_core</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Program Files (x86)\Arduino\hardware\arduino\cores\arduino\Print.h">
+      <Filter>_core</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Program Files (x86)\Arduino\hardware\arduino\cores\arduino\Printable.h">
+      <Filter>_core</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Program Files (x86)\Arduino\hardware\arduino\cores\arduino\Server.h">
+      <Filter>_core</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Program Files (x86)\Arduino\hardware\arduino\cores\arduino\Stream.h">
+      <Filter>_core</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Program Files (x86)\Arduino\hardware\arduino\cores\arduino\Udp.h">
+      <Filter>_core</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Program Files (x86)\Arduino\hardware\arduino\cores\arduino\USBAPI.h">
+      <Filter>_core</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Program Files (x86)\Arduino\hardware\arduino\cores\arduino\USBCore.h">
+      <Filter>_core</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Program Files (x86)\Arduino\hardware\arduino\cores\arduino\USBDesc.h">
+      <Filter>_core</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Program Files (x86)\Arduino\hardware\arduino\cores\arduino\WCharacter.h">
+      <Filter>_core</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Program Files (x86)\Arduino\hardware\arduino\cores\arduino\wiring_private.h">
+      <Filter>_core</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Program Files (x86)\Arduino\hardware\arduino\cores\arduino\WString.h">
+      <Filter>_core</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Program Files (x86)\Arduino\hardware\arduino\cores\arduino\avr-libc\sectionname.h">
+      <Filter>_core\avr-libc</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Program Files (x86)\Arduino\hardware\arduino\cores\arduino\avr-libc\stdlib_private.h">
+      <Filter>_core\avr-libc</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Program Files (x86)\Arduino\hardware\arduino\variants\standard\pins_arduino.h">
+      <Filter>_core</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\Arduino\libraries\dallas-temperature-control\DallasTemperature.h">
+      <Filter>_libraries\dallas-temperature-control</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\Arduino\libraries\OneWire\OneWire.h">
+      <Filter>_libraries\OneWire</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Program Files (x86)\Arduino\libraries\LiquidCrystal\LiquidCrystal.h">
+      <Filter>_libraries\LiquidCrystal</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="C:\Program Files (x86)\Arduino\hardware\arduino\cores\arduino\CDC.cpp">
+      <Filter>_core</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Program Files (x86)\Arduino\hardware\arduino\cores\arduino\HardwareSerial.cpp">
+      <Filter>_core</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Program Files (x86)\Arduino\hardware\arduino\cores\arduino\HID.cpp">
+      <Filter>_core</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Program Files (x86)\Arduino\hardware\arduino\cores\arduino\IPAddress.cpp">
+      <Filter>_core</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Program Files (x86)\Arduino\hardware\arduino\cores\arduino\main.cpp">
+      <Filter>_core</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Program Files (x86)\Arduino\hardware\arduino\cores\arduino\new.cpp">
+      <Filter>_core</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Program Files (x86)\Arduino\hardware\arduino\cores\arduino\Print.cpp">
+      <Filter>_core</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Program Files (x86)\Arduino\hardware\arduino\cores\arduino\Stream.cpp">
+      <Filter>_core</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Program Files (x86)\Arduino\hardware\arduino\cores\arduino\Tone.cpp">
+      <Filter>_core</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Program Files (x86)\Arduino\hardware\arduino\cores\arduino\USBCore.cpp">
+      <Filter>_core</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Program Files (x86)\Arduino\hardware\arduino\cores\arduino\WInterrupts.c">
+      <Filter>_core</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Program Files (x86)\Arduino\hardware\arduino\cores\arduino\wiring.c">
+      <Filter>_core</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Program Files (x86)\Arduino\hardware\arduino\cores\arduino\wiring_analog.c">
+      <Filter>_core</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Program Files (x86)\Arduino\hardware\arduino\cores\arduino\wiring_digital.c">
+      <Filter>_core</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Program Files (x86)\Arduino\hardware\arduino\cores\arduino\wiring_pulse.c">
+      <Filter>_core</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Program Files (x86)\Arduino\hardware\arduino\cores\arduino\wiring_shift.c">
+      <Filter>_core</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Program Files (x86)\Arduino\hardware\arduino\cores\arduino\WMath.cpp">
+      <Filter>_core</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Program Files (x86)\Arduino\hardware\arduino\cores\arduino\WString.cpp">
+      <Filter>_core</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Program Files (x86)\Arduino\hardware\arduino\cores\arduino\avr-libc\malloc.c">
+      <Filter>_core\avr-libc</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Program Files (x86)\Arduino\hardware\arduino\cores\arduino\avr-libc\realloc.c">
+      <Filter>_core\avr-libc</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\Arduino\libraries\dallas-temperature-control\DallasTemperature.cpp">
+      <Filter>_libraries\dallas-temperature-control</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\Arduino\libraries\OneWire\OneWire.cpp">
+      <Filter>_libraries\OneWire</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Program Files (x86)\Arduino\libraries\LiquidCrystal\LiquidCrystal.cpp">
+      <Filter>_libraries\LiquidCrystal</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>
