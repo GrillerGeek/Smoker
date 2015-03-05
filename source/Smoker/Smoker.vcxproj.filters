@@ -34,6 +34,7 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="Smoker.ino" />
+    <None Include="ClassDiagram.cd" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Visual Micro\.Smoker.vsarduino.h">
